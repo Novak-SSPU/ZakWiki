@@ -179,7 +179,7 @@ nav a:hover {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .logo {
         grid-column: 2 / 3;
         font-family: witcher;
@@ -262,9 +262,15 @@ th {
 }
 
 .image-postavy {
-    float: left;
+    float: right;
+    max-width: 15%;
     height: auto;
-    max-width: 50%;
     margin-right: 2%;
+    display: block;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
