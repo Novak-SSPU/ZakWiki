@@ -274,3 +274,11 @@ th {
     margin-right: auto;
     display: block;
 }
+
+.dotaznik {
+    margin-left: 2%;
+    margin-right: auto;
+    display: block;
+    color: white;
+    width: 75%;
+}

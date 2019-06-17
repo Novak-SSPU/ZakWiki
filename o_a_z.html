@@ -22,7 +22,7 @@
                 <li><a href="postavy.html">Postavy</a></li>
                 <li><a href="knihy.html">Knihy</a></li>
                 <li><a href="hry.html">Hry</a></li>
-                <li><a href="o_a_z.html">Odkazy a zdroje</a></li>
+                <li><a href="o_a_z.html">Ostatní</a></li>
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
@@ -33,8 +33,43 @@
 
 
 
-    <div class="content">
-        <h2>Your content would go here</h2>
+    <div class="body">
+        <div class="div-image">
+            <h1 class="h1"> Dotazník</h1>
+            <form action="/action_page.php" class="dotaznik" style="text-align: left">
+                Křestní jméno:
+                <input type="text" name="krestni"><br>
+                <br> Příjmení:
+                <input type="text" name="prijmeni">
+                <br><br>
+                <br><br> Vyberte pohlaví:<br>
+                <input type="radio" name="gender" value="muz" checked> Muž<br>
+                <input type="radio" name="gender" value="zena"> Žena<br>
+                <input type="radio" name="gender" value="helikoptera"> Bojová helikoptéra<br>
+                <input type="radio" name="gender" value="jine"> Jiné<br>
+                <br><br>
+                <br><br> Co vás přivedlo k sáze Zaklínač?<br>
+                <input type="radio" name="gender" value="kamarad" checked>Seznámil mě s ní kamarád/známý/rodinný příslušník
+                <br>
+                <input type="radio" name="gender" value="recenze"> Přišel jsem na ní díky recenzí<br>
+                <input type="radio" name="gender" value="serial"> Přišel jsem na ni díky připravovanému seriálu na téma ságy
+                <br>
+                <input type="radio" name="gender" value="internet"> Viděl jsem ságu na internetu (YouTube, Twitch, sociální sítě, Reddit)<br>
+                <input type="radio" name="gender" value="jine"> Jiné<br>
+                <br><br>
+                <textarea name="zpráva" rows="30%" cols="75%">Zde nám prosím sdělte váš názor na celou ságu Zaklínač, popřípadě recenzi naší stránky. Děkujeme</textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <h1 class="h1">Odkazy a zdroje</h1>
+            <p class="text">Téměř všechen materiál jsem čerpal z internetu. Pod tímto odstavcem se pokusím jmenovat všechny zdroje, ale nejsem si jist, zda si na všechny vzpomenu.</p>
+            <p class="text"><a href="https://cs.wikipedia.org/wiki/Hlavn%C3%AD_strana" style="color: white"><b>Wikipedie</b></a> - téměř všechen materiál jsem čerpal z Wikipedie - obsahy knih, informace ke hrám apod.</p>
+            <p class="text"><a href="https://www.w3schools.com/default.asp" style="color: Green"><b>W3Schools</b></a> - Všechny rady k HTML a CSS jsem hledal na této stránce.</p>
+            <p class="text"><a href="https://witcher.fandom.com/wiki/Witcher_Wiki" style="color: rgb(8, 54, 139)"><b>Fandom - WitcherWiki</b></a> - Informace o světě Zaklínače na jednom místě.</p>
+            <p class="text"><a href="http://www.postavy.cz/svet/zaklinac/postavy/" style="color: red"><b>Postavy</b></a> - Informace o postavách z různých příběhů a ság.</p>
+            <p class="text"><a href="http://navodycesky.cz/pc/zaklinac-3-divoky-hon-bestiar/" style="color:rgb(219, 205, 11)"><b>Návody</b></a> - Návody na všemožné hry.</p>
+            <p class="text"><a href="https://www.google.com/imghp?hl=en" style="color: rgb(3, 50, 88)"><b>Google obrázky</b></a> - Obrázky Google, bez kterých by to nešlo.</p>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
